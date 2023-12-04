@@ -1,0 +1,16 @@
+<view class="container">
+  <image mode="scaleToFill" class="logo" />
+  <view>
+    <input class="input" type="search" placeholder="搜索" confirm-type="search" onFocus="onSearch" 
+      onConfirm="sortinput" />
+  </view>
+</view>
+
+<view class="tab-bar">
+  <view class="tab-item">
+    <text class="tab-text">首页</text>
+  </view>
+  <view class="tab-item">
+    <text class="tab-text">我的</text>
+  </view>
+</view>
