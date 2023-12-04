@@ -1,0 +1,8 @@
+{
+  "format": 2,
+  "miniprogramRoot": "client",
+  "cloud": {
+    "type": "CLOUDAPP"
+  },
+  "serverlessRoot": "server"
+}

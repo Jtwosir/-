@@ -1,0 +1,18 @@
+{
+  "modes": [
+    {
+      "title": "sort",
+      "page": "pages/sort/sort"
+    },
+    {
+      "title": "pages/sort/sort",
+      "page": "pages/sort/sort",
+      "launchMode": "common"
+    },
+    {
+      "title": "pages/my/my",
+      "page": "pages/my/my",
+      "launchMode": "common"
+    }
+  ]
+}

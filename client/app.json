@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/sort/sort",
+    "pages/my/my"
+  ],
+  "window": {
+    "defaultTitle": "NewsNova",
+    "titleBarColor": "#50baf1",
+    "backgroundColor": "#50baf1"
+  }
+}

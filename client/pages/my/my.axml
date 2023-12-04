@@ -1,0 +1,19 @@
+<view class="my">
+  <view class="userinfo">
+    <image mode="aspectFill" src="/image/head.png" />
+    <text>
+      {{username}}
+    </text>
+  </view>
+  <view class="function">
+    <view class="shoucang" >
+      <image src="" />
+      <text>收藏</text>
+    </view>
+    <view class="shoucang">
+      <image mode="scaleToFill" src="" />
+      <text>历史</text>
+    </view>
+</view>
+
+<tab>
