@@ -1,23 +1,18 @@
-page{
-  height: 100%
-}
-
 
 .container {
   width: 100%;
-  min-height: 100vh;
+  height: max-content;
 
   display: flex;
   flex-direction: column; 
   align-items: center;
-  justify-content: center;
   
   box-sizing: border-box;
 }
 
 .search {
   display: flex;
-  height: 15vh;
+  height: 50rxp;
   width: 95%;
   align-items: center;
   justify-content: center;
@@ -34,8 +29,8 @@ page{
 }
 
 .searchItem image {
-  height: 80rpx;
-  width: 80rpx;
+  height: 50rpx;
+  width: 50rpx;
   align-self: center;
   margin-left: 10rpx;
   margin-right: 0rpx;
@@ -43,41 +38,21 @@ page{
 
 .searchItem .line{
   align-self: center;
-  height: 50rpx;
+  height: 40rpx;
   width: 2rpx;
   background-color: #aaa;
 }
 
-.input {
+.searchItem .input {
   align-self: center;
   width: 550rpx;
   font-size: 40rpx;
 }
 
-.lishiframe{
-  width: 90%;
-  min-height: 85vh;
-  background-color:#fff;
-
-  border-radius: 10rpx 10rpx 0 0;
-}
-
-.lishicontainer{
-  margin: 20rpx 40rpx;
-}
-
-.lishicontainer .lishicentent{
-  font-size: larger;
-  color: #8D8D8D;
-  margin: 20rpx 10rpx;
-  text-align: left;
-  overflow-wrap: break-word;
-  text-overflow: ellipsis;
-}
-
-.lishicontainer .line{
-  justify-self: center;
-  height: 1rpx;
+.rescontainer{
   width: 100%;
+  min-height: 100vh;
+  margin-top: 30rpx;
   background-color: #aaa;
+  border-radius: 30rpx 30rpx 0 0;
 }

@@ -19,20 +19,12 @@
   border-radius: 30rpx;
   margin-bottom: 30rpx;
 
-  display: flex;
-  align-items: center;
-}
-
-.content .left{
-  width: 200rpx;
-  height: 200rpx;
-  margin: 0 30rpx;
-  border-radius: 40rpx;
+  box-sizing: border-box;
+  flex-direction: column;
 }
 
 .content .title{
   height: 164rpx;
-  width: 84.3vw;
   margin: 0 20rpx;
   color: rgb(0, 21, 51);
   font-size: 70rpx;

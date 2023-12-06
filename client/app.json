@@ -2,7 +2,10 @@
   "pages": [
     "pages/index/index",
     "pages/sort/sort",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/myshoucang/myshoucang",
+    "pages/mylishi/mylishi",
+    "pages/schres/schres"
   ],
   "window": {
     "defaultTitle": "NewsNova",
